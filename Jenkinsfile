@@ -17,8 +17,8 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
-                python -m venv mlip
-                source mlip/bin/activate
+                python -m venv mlip1
+                source mlip1/bin/activate
                 pip install pytest numpy pandas scikit-learn
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
